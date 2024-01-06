@@ -1,0 +1,127 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    color: powderblue;
+    padding: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 3px;
+    transition: transform 0.3s ease-in-out;
+}
+.head{
+    font-size:5vw;
+    text-decoration: underline ;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 5px rgb(67, 212, 231);
+}
+header:hover{
+       transform: scale(1.2);
+
+}
+.img{
+    width: 500px;
+    margin: auto;
+    border: groove powderblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px 5px rgb(148, 232, 243);
+}
+.img :hover {
+    width: 550px;
+    box-shadow: 10px 10px 30px rgb(211, 249, 255);
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+   
+}
+body{
+    background: url(VK.jpg) no-repeat center fixed; 
+    background-size: cover;
+}
+section{
+    margin:40px 5px 5px 5px;
+    padding:0 70px 0px 70px;
+}
+h2{
+    text-align: start;
+    padding-bottom: 5px;
+    color :rgba(31, 203, 226, 0.932);
+}
+h2:hover{
+    text-shadow: 5px 5px 15px powderblue;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    padding: 1px;
+    color: rgb(193, 221, 224);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: powderblue;
+    text-align: center;
+  }
+th{
+    background-color: rgb(120, 218, 231);
+  }
+  
+th, td{
+    text-align: center;
+    padding: 8px;
+    border-bottom:groove rgb(120, 208, 219);
+  }
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration: underline; */
+    padding: 10px;
+    color :rgb(100, 237, 255);
+  }
+a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    /* text-decoration: underline; */
+    display: inline-block;
+   
+}
+.button{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(176, 224, 230, 0.192);
+    border: groove rgb(59, 218, 183);
+    border-radius: 5px;
+}
+.button:hover{
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image{
+    
+    transition: transform 0.5s ease-in-out;
+}
+.image:hover{
+    transform: scale(2.2);
+}
+.foot{
+    text-align: center;
+}
+footer {
+    background-color: powderblue;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+} 

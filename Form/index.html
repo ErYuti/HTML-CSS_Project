@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="stylecss">
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+        Get touch with us
+        <form>
+            <div class="label">
+                <label for="fname" >First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Your first name.."><br>
+                <label for="lname" > Last Name:</label>
+                <input type="text" id="lname" name="lanme" placeholder="Your last name..">
+            </div>
+                <div class="label">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                </div>
+            <div class="label">
+                <label for="para">Message:</label><br>
+                <textarea type="text" id="para" placeholder="Type here...." style="height:200px"></textarea>
+            </div>
+            <div class="label">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

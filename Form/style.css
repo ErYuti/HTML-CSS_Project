@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height:auto;
+    margin:10px ;
+    padding:5px;
+    background-color:rgb(180, 180, 180);
+    color:black;
+    /* text-align: center; */
+    font-size: large;
+    border:3px solid #04AA6D;
+    border-radius: 5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc73;
+    border-radius: 4px;
+  }  
+input[type=submit]{
+     background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid white ;
+    border-radius: 4px;
+  }
+  input[type=submit]:hover{
+    background-color: rgb(12, 173, 60);
+  }
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+drop{
+    color:black
+}

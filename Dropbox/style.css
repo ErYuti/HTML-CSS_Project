@@ -1,0 +1,36 @@
+.box1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .box2 {
+    display: none;
+    background-color: #f9f9f969;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .box2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .box2  a:hover {
+    background-color: #7ad882;
+}
+  
+  .box:hover .box2 {
+    background-color: rgb(200, 230, 194);
+    display: block;
+    box-shadow: 5px 5px 20px 0px black
+  }
+  
+  .box:hover .box1 {
+    background-color: #126b15;
+    color: black;
+    box-shadow: 5px 5px 15px 2px black;
+  }

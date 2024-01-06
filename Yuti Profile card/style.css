@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 10px 10px 15px 20px rgba(0, 0, 0, 0.1);
+}
+.profile-card:hover{
+    box-shadow: 8px 8px 30px  #4070f4;
+}
+.img {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.img .yuti-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: rgb(124, 124, 184);
+    border: 3px solid white;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 2px 8px 5px;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+h2{
+    color:#4070f4;
+}
+.skill{
+    text-align: left;
+    margin-bottom: 25px;
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 5px;
+    color: white;
+    background-color: #4070f4;
+    text-decoration: none;
+}
+a:hover{
+   background-color: #01050f;
+}
