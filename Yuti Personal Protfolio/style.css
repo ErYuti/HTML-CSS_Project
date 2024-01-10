@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1f1f1f;
+}
+header{
+    background-color: #1f1f1f;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a {
+    display: inline-block;
+    margin: 0.6rem;
+    color: #fff;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #fff;
+    color: #1f1f1f;
+    border-radius: 1.5rem;
+}
+.active {
+    color: #999;
+    border: 0.12rem solid #fff;
+    border-radius: 1.5rem;
+}
+h1 {
+    font-size: 4rem;
+    color: #fff;
+    transition: transform 0.2s ease-in-out;
+}
+h1:hover {
+    transform: scale(1.1);
+}
+h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+p {
+    color: #999;
+    text-align: justify; 
+}
+span {
+    color: #27e287; 
+}
+.main {
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+}
+.sidemenu {
+    height: 100vh;
+    min-width: 300px;
+    max-width: 300px;
+    border-right:1px groove #27e287;
+    border-left:1px groove #27e287;
+    padding: 2rem;
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px 10px 15px 20px rgba(0, 0, 0, 0.1);
+    padding-top: 40px;
+}
+.sidemenu:hover {
+    box-shadow: 0 0 10px #27e287;
+}
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.image {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.img{
+    position: relative;
+    height: 180px;
+    width: 140px;
+    padding: 3px;
+    margin: 20px 0;
+    border-radius: 100%;
+}
+.img .yuti-meher{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.img:hover{
+    box-shadow:2px 2px 5px #fff;
+    transform: scale(1.);
+}
+.name> h1{
+    padding-top: 5px;
+    font-size: 2rem;
+    color: #fff;
+}
+.name> p{
+    padding-top: 5px;
+    font-size: 1rem;
+    color: #999;
+    text-align: center;
+}
+.socialicon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.2rem;
+    padding-top: 20px;
+}
+.socialicon> a{
+    border: 2px solid #999;
+    border-radius: 50%;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #999;
+    transition: transform 0.3s ease-in-out;
+}
+.socialicon> a:hover{
+    color: #27e287;
+    border: 2px solid #27e287;
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+}
+.resume{
+    color: #1f1f1f;
+    background: #27e287;
+    font-size: 1rem;
+    border: 2px solid #fff;
+    width: fit-content;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px 80px;
+}
+.resume:hover {
+    color: #27e287;
+}
+.yutidiv{
+    height: 80px;
+    color:#1f1f1f
+}
+li {
+    color: #999;
+}
+.container{
+    padding: 5rem;
+    text-align: justify;
+}
+.mainmenu{
+    width: 100%;
+}
+button {
+    color: #fff;
+    background: transparent;
+    font-size: 0.8rem;
+    padding: 5px 16px;
+    border: 1px solid #565656;
+    width: fit-content;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #1f1f1f;
+    background-color: #fff;
+    box-shadow: 2px 3px 10px #ffffff6b;
+}
+
+video{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: filter 0.3s ease-in-out;
+}
+video:hover {
+    transform: scale(1.1);
+}
+.subproject {
+    background-color: black;
+}
+
