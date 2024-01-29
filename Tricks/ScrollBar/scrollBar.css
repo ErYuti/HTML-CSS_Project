@@ -1,0 +1,19 @@
+*{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height:1110px
+}
+body::-webkit-scrollbar{
+    color:transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background: linear-gradient(red, blue,yellow,orange,purple);
+    border-radius: 20px;
+}

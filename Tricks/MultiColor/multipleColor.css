@@ -1,0 +1,16 @@
+*{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+
+    /* direction up to down */
+    /* background : linear-gradient(red , blue); */
+    /* direction for any side */
+    background : linear-gradient(to right bottom, red , blue, yellow, orange);
+}

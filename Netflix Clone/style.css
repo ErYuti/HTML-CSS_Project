@@ -60,7 +60,6 @@ nav button {
     color: white;
     position: relative;
     font-family: 'popins', sans-serif;
-    ;
     gap: 23px;
     padding: 23px;
     text-align: center;
@@ -88,7 +87,6 @@ nav button {
     color: white;
     border-radius: 4px;
     background-color: rgba(23, 23, 23, 0.575);
-    /* border: 0.01px solid white; */
     cursor: pointer;
 }
 

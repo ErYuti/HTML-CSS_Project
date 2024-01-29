@@ -1,0 +1,35 @@
+*{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* to find font */
+/* font finder extension */
+h1{
+
+    font-size: 150px;
+    font-weight: 900;
+    /* image in the text */
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    /* image border  */
+    -webkit-text-stroke:3px black;
+}
+/* select text color */
+p{
+    font-size: 50px;
+    font-weight: 900;
+}
+p::selection{
+    color:lightseagreen;
+    background-color: brown;
+}
